@@ -30,7 +30,7 @@ jobs:
     - name: Setup Surge
       run: npm install surge --global surge
     - name: Execute Deployment with surge
-      run: surge ./  --token     
+      run: surge ./ project001mhassanali.surge.sh --token ${{secrets.SURGE_TOKEN}}  
     
 
 
