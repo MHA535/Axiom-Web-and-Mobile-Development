@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --success-color: limegreen;
+    --error-color: orangered;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsla(0, 0%, 50%, 0.1);
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
