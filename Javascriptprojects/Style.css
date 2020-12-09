@@ -1,0 +1,62 @@
+.header {
+    width: 1000px;
+    height: 2px;
+    padding: 20px;
+    align-items: center;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.header li {
+    float: right;
+  }
+  
+.header li a {
+    display: block;
+    color: green;
+    text-align: center;
+    padding: 14px 26px;
+    text-decoration: chartreuse;
+  }
+  
+.projectlist {
+    width: 300px;
+    height: 300px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 4px;
+}
+
+.projectlist li a:hover {
+    background-color: #111;
+  }
+.projectlist ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+.projectlist li a {
+    display: block;
+    color: #000;
+    padding: 8px 26px;
+    text-decoration: cadetblue;
+    float: left;
+  }
+  
+  /* Change the link color on hover */
+.projectlist li a:hover {
+    background-color: #555;
+    color: white;
+}
