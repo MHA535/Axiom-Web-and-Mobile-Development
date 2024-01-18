@@ -22,4 +22,4 @@ jobs:
         with:
           node-version: 18
       - run: npm install -g surge
-      - run: surge ./ http://mhassanali2023.sh/ --token ${{ secrets.SURGE_TOKEN1 }}
+      - run: surge ./ ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
